@@ -1,22 +1,3 @@
 baseURL = "http://example.org/"
-languageCode = "ru-ru"
-title = "Проект Баланс"
-theme = "custom"
-
-disableKinds = ["RSS", "sitemap", "robotsTXT", "404"]
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-
-  [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
+languageCode = "en-us"
+title = "My New Hugo Site"
